@@ -1,0 +1,310 @@
+/* iPad Pro */
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1, .h1 {
+		font-size: 54px;
+		line-height: 62px;
+	}
+	h2, .h2 {
+		font-size: 42px;
+		line-height: 48px;
+	}
+	p, ul li {
+		font-size: 16px;
+		line-height: 28px;
+	}
+}
+
+/* iPad */
+@media (min-width: 768px) and (max-width: 991px) {
+	.ipad-only {
+		display: block !important;
+	}
+	.mobile-only {
+		display: none !important;
+	}
+	.desktop-only {
+		display: none !important;
+	}
+	h1, .h1 {
+		font-size: 54px;
+		line-height: 62px;
+	}
+	h2, .h2 {
+		font-size: 42px;
+		line-height: 48px;
+	}
+	p, ul li {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.section-07 .content {
+		padding: 25px 0px;
+	}
+}
+
+/* Mobile Landscape */
+@media (min-width: 560px) and (max-width: 767px) {
+	.col-reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.mobile-only {
+		display: block !important;
+	}
+	.desktop-only {
+		display: none !important;
+	}
+	.ipad-only {
+		display: none !important;
+	}
+	.align-center-mobile {
+		text-align: center !important;
+	}
+	.align-left-mobile {
+		text-align: left !important;
+	}
+	.align-right-mobile {
+		text-align: right !important;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.modal-window {
+		display: block;
+	}
+	.section-01 .logo {
+		margin-bottom: 65px;
+		height: 30px;
+	}
+	h1, .h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	h2, .h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	h4, .h4 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	p, ul li {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.faqs {
+		padding-left: 0px;
+	}
+	.section-01, .section-02, .section-03, .section-04, .section-05, .section-06, .section-07, .section-08, .section-09 {
+		padding: 50px 10px;
+	}
+	.section-03 h2 {
+		margin-bottom: 25px;
+	}
+	.section-03 .logo {
+		width: 100%;
+		height: 150px;
+		margin-bottom: 15px;
+	}
+	.section-04 .benefit {
+		padding: 0px 0px 35px 0px;
+	}
+	.section-05 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.slideshow-container p.h2 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.section-07 .content {
+		padding: 0px 0px 25px 0px;
+		margin: 15px 0px;
+	}
+	.faqs .row .col:last-child {
+		margin-left: 0px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	footer {
+		padding: 25px 10px;
+	}
+	footer p {
+		font-size: 8px;
+	}
+	footer ul li {
+		padding: 0px 10px;
+	}
+	footer ul li a {
+		font-size: 14px;
+	}
+	.section-01 {
+		padding-bottom: 100px !important;
+	}
+	.section-01 .image-ph {
+		width: 100%;
+		padding-top: 50px;
+		margin-top: 50px;
+	}
+	.section-04 .image-ph {
+		width: 100%;
+	}
+	.section-04 h4 {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width:992px) {
+	.mobile-only {
+		display: none !important;
+	}
+	.desktop-only {
+		display: block !important;
+	}
+	.ipad-only {
+		display: none !important;
+	}
+}
+
+/* Mobile */
+@media only screen and (max-width: 559px) {
+	.col-reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.mobile-only {
+		display: block !important;
+	}
+	.desktop-only {
+		display: none !important;
+	}
+	.ipad-only {
+		display: none !important;
+	}
+	.align-center-mobile {
+		text-align: center !important;
+	}
+	.align-left-mobile {
+		text-align: left !important;
+	}
+	.align-right-mobile {
+		text-align: right !important;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.modal-window {
+		display: block;
+	}
+	.section-01 .logo {
+		margin-bottom: 65px;
+		height: 30px;
+	}
+	h1, .h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	h2, .h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	h4, .h4 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	p, ul li {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.faqs {
+		padding-left: 0px;
+	}
+	.section-01, .section-02, .section-03, .section-04, .section-05, .section-06, .section-07, .section-08, .section-09 {
+		padding: 50px 10px;
+	}
+	.section-03 h2 {
+		margin-bottom: 25px;
+	}
+	.section-03 .logo {
+		width: 100%;
+		height: 150px;
+		margin-bottom: 15px;
+	}
+	.section-04 .benefit {
+		padding: 0px 0px 35px 0px;
+	}
+	.section-05 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.slideshow-container p.h2 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.section-07 .content {
+		padding: 0px 0px 25px 0px;
+		margin: 15px 0px;
+	}
+	.faqs .row .col:last-child {
+		margin-left: 0px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+	}
+	footer {
+		padding: 25px 10px;
+	}
+	footer p {
+		font-size: 8px;
+	}
+	footer ul li {
+		padding: 0px 10px;
+	}
+	footer ul li a {
+		font-size: 14px;
+	}
+	.section-01 {
+		padding-bottom: 100px !important;
+	}
+	.section-01 .image-ph {
+		width: 100%;
+		padding-top: 50px;
+		margin-top: 50px;
+	}
+	.section-04 .image-ph {
+		width: 100%;
+	}
+	.section-04 h4 {
+		margin-top: 50px;
+	}
+	.section-01 {
+		background-position: bottom;
+		background-attachment: unset;
+	}
+	.btn {
+		margin-right: 16px;
+		margin-top: 10px;
+		padding: 16px 36px;
+		font-size: 16px;
+		line-height: 26px;
+	}
+}
+
+/* iPhone */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* Galaxy S5 */
+@media only screen and (max-width: 360px) {
+
+}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {
+
+}
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+
+}
